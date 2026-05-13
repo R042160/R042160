@@ -24,6 +24,14 @@ Ich betreibe eigenverantwortlich einen produktiven Drei-Knoten-Cluster auf **Deb
               NATS · Verdaccio · eigene Docker-Registry
 ```
 
+### Public Repositories
+
+| Repo | What it is |
+|---|---|
+| 📄 [`cv`](https://github.com/R042160/cv) | Public CV (sanitized) |
+| 🏗️ [`cluster-infrastructure`](https://github.com/R042160/cluster-infrastructure) | Architecture & documentation of my 3-node production cluster |
+| 🧪 [`puppet-lab-debian-isp`](https://github.com/R042160/puppet-lab-debian-isp) | Active Puppet learning lab: BIND9 + ISC-DHCP + Postfix + Nginx on Debian 12 |
+
 ### Tech I work with daily
 
 - **Linux:** Debian / Ubuntu LTS, systemd, journald, apt, AppArmor, SSH-Hardening
@@ -31,14 +39,17 @@ Ich betreibe eigenverantwortlich einen produktiven Drei-Knoten-Cluster auf **Deb
 - **Services:** PostgreSQL · Redis · Prometheus · Grafana · Loki · Qdrant · Meilisearch · NATS · Verdaccio
 - **Automation:** Bash (advanced), Node.js, ~360 eigene CLI-Tools, idempotente Reconciliation-Skripte (Puppet/Salt-Paradigma)
 - **Containers:** Docker, Docker Compose, Container-Networking
-- **ISP-Tools (in Lab-Aufbau):** BIND, PowerDNS, ISC DHCP / Kea, Postfix, Dovecot, Nginx, Apache
+- **ISP-Tools (in Lab-Aufbau):** BIND, PowerDNS, ISC DHCP / Kea, Postfix, Dovecot, Nginx, Apache → siehe [`puppet-lab-debian-isp`](https://github.com/R042160/puppet-lab-debian-isp)
 - **Languages:** Bash, Python, Node.js / TypeScript, Go, Rust (Grundlagen)
 
 ### Lernpfad 2026
 
+- [x] Eigener 3-Knoten-Produktivcluster (Debian / Ubuntu, Docker, Tailscale)
+- [x] Puppet-Lab v0 mit vier ISP-Modulen
 - [ ] **LFCS** – Linux Foundation Certified SysAdmin
 - [ ] **LPIC-1** – Linux Professional Institute Certification
-- [ ] Puppet / Salt – produktive Erfahrung in Team-Setting
+- [ ] Puppet Hiera-Refactor + rspec-puppet im Lab
+- [ ] Salt-Variante zum direkten Vergleich
 
 ### Was sonst noch
 
@@ -49,7 +60,7 @@ Ich betreibe eigenverantwortlich einen produktiven Drei-Knoten-Cluster auf **Deb
 ### Kontakt
 
 - E-Mail: **ronesto@hotmail.com**
-- CV (öffentlich, kuratierte Version): siehe Repository [`cv`](https://github.com/R042160/cv)
+- CV (öffentlich, kuratierte Version): [`R042160/cv`](https://github.com/R042160/cv)
 - Live-Demo meiner Cluster-Infrastruktur per Screen-Sharing oder vor Ort: gerne im Gespräch
 
 ---
